@@ -1,9 +1,1 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const menuBtn = document.querySelector('.nav__menu__btn');
-    const navLinks = document.querySelector('.nav__links');
-  
-    menuBtn.addEventListener('click', function () {
-      navLinks.classList.toggle('open');
-    });
-  });
-  
+document.addEventListener("DOMContentLoaded",function(){const e=document.querySelector(".nav__menu__btn"),n=document.querySelector(".nav__links");e.addEventListener("click",function(){n.classList.toggle("open")})});
